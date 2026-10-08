@@ -16,7 +16,7 @@
 
 set -eu
 
-RELEASES_URL=${KOS_TOOL_RELEASES_URL:-https://github.com/Kry10-NZ/kos-tool-publish-site-test/releases}
+RELEASES_URL=${KOS_TOOL_RELEASES_URL:-https://github.com/Kry10-NZ/kos-tool-release/releases}
 # nix compiles absolute paths into the packages kos-tool installs, so it needs this directory whatever --to says.
 KRY10_DIR=/opt/kry10
 
